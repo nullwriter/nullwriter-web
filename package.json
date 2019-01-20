@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --progress --colors --watch",
-    "prod:build": "webpack -p"
+    "p:build": "webpack -p"
   },
   "devDependencies": {
     "webpack": "^4.28.4",
