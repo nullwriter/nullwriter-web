@@ -6,8 +6,6 @@ import 'css/style.css';
 $(document).ready(() => {
     "use strict";
 
-    alert("hi");
-
     let navChildren = $("#sidebar-menu").children("a");
     let aArray = [];
 
