@@ -1,8 +1,8 @@
 /node_modules
 /.phpintel
-!/dist/
-/dist/**
-!/dist/images/
 /package-lock.json
 /yarn.lock
 /yarn-error.log
+!dist/
+dist/**
+!dist/images/
