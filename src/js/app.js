@@ -2,11 +2,18 @@ import $ from 'jquery';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'css/font-awesome.min.css';
 import 'css/style.css';
+// import 'slick-carousel';
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
 
 $(document).ready(() => {
     "use strict";
 
-    let navChildren = $("#sidebar-menu").children("a");
+    // $('.project-list').slick({
+    //     variableWidth: true
+    // });
+
+    let navChildren = $(".sidebar-links").children("a");
     let aArray = [];
 
     for (let i = 0; i < navChildren.length; i++) {
