@@ -34,31 +34,40 @@ $yearsExperience = getAge("2014-04-04");
         <div class="container-fluid">
             <div class="row">
 
-                <div class="col-sm-3 px-0 bg-dark" id="sidebar-wrap">
-                    <div class="py-2 sticky-top flex-grow-1">
-                        <div class="nav flex-md-column sidebar-links">
+                <aside class="col-12 col-md-3 p-0 bg-dark" id="sidebar-wrap">
+                    <nav class="navbar navbar-expand navbar-dark bg-dark flex-md-column flex-row align-items-start py-2 flex-grow-1 pr-0 sticky-top fixed-top">
+                        <div class="collapse navbar-collapse w-100 flex-column">
                             <div class="d-flex flex-column" id="sidebar-top">
                                 <a href="" class="nav-link d-none d-sm-inline text-center">
                                     <img src="dist/images/foto-linkedin.jpeg" class="rounded-circle w-50" />
                                 </a>
                                 <span id="name-label" class="text-center">Christian Feo</span>
-                                <span id="title-label" class="text-center">FullStack Developer</span>
+                                <span id="title-label" class="text-center">Fullstack Developer</span>
                                 <div id="sidebar-footer">
                                     <a href="https://www.linkedin.com/in/christianfeo/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                     <a href="https://github.com/nullwriter" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                                 </div>
                             </div>
-                            <a href="#about-me" class="nav-link sb">About Me</a>
-                            <a href="#things-i-do" class="nav-link sb">Things I Do</a>
-                            <a href="#latest-projects" class="nav-link sb">Latest Projects</a>
-                            <a href="#work-experience" class="nav-link sb">Work Experience</a>
-                            <a href="#contact" class="nav-link sb">Contact</a>
+                            <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
+                                <li class="nav-item">
+                                    <a class="nav-link sb text-nowrap" href="#about-me"><i class="fa fa-user fa-fw"></i> <span class="d-none d-md-inline">About Me</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link sb text-nowrap" href="#things-i-do"><i class="fa fa-tasks fa-fw"></i> <span class="d-none d-md-inline">Skills</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link sb text-nowrap" href="#latest-projects"><i class="fa fa-file-word-o fa-fw"></i> <span class="d-none d-md-inline">Projects</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link sb text-nowrap" href="#work-experience"><i class="fa fa-building-o fa-fw"></i> <span class="d-none d-md-inline">Experience</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link sb text-nowrap" href="#contact"><i class="fa fa-envelope-o fa-fw"></i> <span class="d-none d-md-inline">Contact</span></a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="text-center" id="footnote">
-                            Made with yarn, webpack & bootstrap4
-                        </div>
-                    </div>
-                </div>
+                    </nav>
+                </aside>
 
                 <div class="col" id="main">
                     <section id="about-me">
@@ -144,8 +153,9 @@ $yearsExperience = getAge("2014-04-04");
 
                     <section id="latest-projects">
                         <div class="container-fluid">
-                            <h4 class="sub-title pb-4">Latest Projects</h4>
-                            <div id="projects-container" class="d-flex justify-content-around flex-wrap">
+                            <h4 class="sub-title">Latest Projects</h4>
+                            <p class="sub-text pb-4">More projects are also posted at my github (<a href="https://github.com/nullwriter" target="_blank">github.com/nullwriter</a>).</p>
+                            <div id="projects-container" class="d-flex flex-wrap">
                                 <a href="dist/images/portfolio/cafemetro.png" data-sub-html="#caption1" class="portfolio-item">
                                     <img src="dist/images/portfolio/cafemetro-web-400.jpg" class="img-fluid" />
                                     <div id="caption1" class="portfolio-description">
@@ -166,7 +176,7 @@ $yearsExperience = getAge("2014-04-04");
                                     <img src="dist/images/portfolio/cusica_new2-web-400.jpg" class="img-fluid" />
                                     <div id="caption3" class="portfolio-description">
                                         <h4>Cusica - CakePHP 3/Angular 1</h4>
-                                        <p>Fully custom music E-Commerce solution with Cake 3 & Angular 1.</p>
+                                        <p>Fully custom music E-Commerce solution with Cake 3, Angular 1 & SASS SCSS.</p>
                                         <p>cusica.com</p>
                                     </div>
                                 </a>

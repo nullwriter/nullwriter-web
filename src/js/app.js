@@ -10,7 +10,7 @@ import 'lightgallery.js/dist/css/lg-transitions.css';
 $(document).ready(() => {
     "use strict";
 
-    let navChildren = $(".sidebar-links").children("a");
+    let navChildren = $(".nav-item").children("a");
     let aArray = [];
 
     for (let i = 0; i < navChildren.length; i++) {

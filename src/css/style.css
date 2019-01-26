@@ -49,8 +49,7 @@ section#about-me > .container-fluid > h3 {
 
 .sub-text {
     font-size: 1rem;
-    line-height: 2.6rem;
-    margin-top: 1.5rem;
+    line-height: 1.6rem;
     color: #696a75;
 }
 
@@ -236,7 +235,7 @@ div#main.col {
 
 .nav-link.sb:hover {
     background-color: white;
-    color: black;
+    color: black !important;
 }
 
 #sidebar-top {
@@ -319,4 +318,24 @@ a.portfolio-item {
 
 .portfolio-item:hover {
     text-decoration: none;
+}
+
+#projects-container {
+    justify-content: space-evenly;
+}
+
+@media all and (max-width: 767px) {
+    #sidebar-top {
+        display: none !important;
+    }
+}
+
+@media all and (max-width: 644px) {
+    #sidebar-wrap {
+        /*display: none;*/
+    }
+}
+
+nav {
+    padding-left: 0.9rem;
 }
