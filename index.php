@@ -50,19 +50,19 @@ $yearsExperience = getAge("2014-04-04");
                             </div>
                             <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
                                 <li class="nav-item">
-                                    <a class="nav-link sb text-nowrap" href="#about-me"><i class="fa fa-user fa-fw"></i> <span class="d-none d-md-inline">About Me</span></a>
+                                    <a title="About Me" class="nav-link sb text-nowrap" href="#about-me"><i class="fa fa-user fa-fw"></i> <span class="d-none d-md-inline">About Me</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link sb text-nowrap" href="#things-i-do"><i class="fa fa-tasks fa-fw"></i> <span class="d-none d-md-inline">Skills</span></a>
+                                    <a title="Skills" class="nav-link sb text-nowrap" href="#things-i-do"><i class="fa fa-tasks fa-fw"></i> <span class="d-none d-md-inline">Skills</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link sb text-nowrap" href="#latest-projects"><i class="fa fa-file-word-o fa-fw"></i> <span class="d-none d-md-inline">Projects</span></a>
+                                    <a title="Projects" class="nav-link sb text-nowrap" href="#latest-projects"><i class="fa fa-file-word-o fa-fw"></i> <span class="d-none d-md-inline">Projects</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link sb text-nowrap" href="#work-experience"><i class="fa fa-building-o fa-fw"></i> <span class="d-none d-md-inline">Experience</span></a>
+                                    <a title="Experience" class="nav-link sb text-nowrap" href="#work-experience"><i class="fa fa-building-o fa-fw"></i> <span class="d-none d-md-inline">Experience</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link sb text-nowrap" href="#contact"><i class="fa fa-envelope-o fa-fw"></i> <span class="d-none d-md-inline">Contact</span></a>
+                                    <a title="Contact" class="nav-link sb text-nowrap" href="#contact"><i class="fa fa-envelope-o fa-fw"></i> <span class="d-none d-md-inline">Contact</span></a>
                                 </li>
                             </ul>
                         </div>
