@@ -21,7 +21,7 @@
     "file-loader": "^3.0.1",
     "ignore-loader": "^0.1.2",
     "jquery": "^3.3.1",
-    "slick-carousel": "^1.8.1",
+    "lightgallery.js": "^1.1.2",
     "style-loader": "^0.18.2",
     "transform-runtime": "0.0.0",
     "url-loader": "^0.5.9"

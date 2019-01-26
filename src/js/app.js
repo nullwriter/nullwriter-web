@@ -2,16 +2,13 @@ import $ from 'jquery';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'css/font-awesome.min.css';
 import 'css/style.css';
-// import 'slick-carousel';
-// import 'slick-carousel/slick/slick.css';
-// import 'slick-carousel/slick/slick-theme.css';
+import 'lightgallery.js/dist/js/lightgallery.js';
+import 'lightgallery.js/dist/css/lightgallery.css';
+import 'lightgallery.js/dist/css/lg-transitions.css';
+
 
 $(document).ready(() => {
     "use strict";
-
-    // $('.project-list').slick({
-    //     variableWidth: true
-    // });
 
     let navChildren = $(".sidebar-links").children("a");
     let aArray = [];
@@ -90,6 +87,9 @@ $(document).ready(() => {
           }
       });
 
+    lightGallery(document.getElementById('projects-container'),{
+        subHtmlSelectorRelative: true
+    });
 });
 
 

@@ -50,6 +50,7 @@ $yearsExperience = getAge("2014-04-04");
                             </div>
                             <a href="#about-me" class="nav-link sb">About Me</a>
                             <a href="#things-i-do" class="nav-link sb">Things I Do</a>
+                            <a href="#latest-projects" class="nav-link sb">Latest Projects</a>
                             <a href="#work-experience" class="nav-link sb">Work Experience</a>
                             <a href="#contact" class="nav-link sb">Contact</a>
                         </div>
@@ -96,7 +97,7 @@ $yearsExperience = getAge("2014-04-04");
                                     </li>
                                     <li>
                                         <i class="devicons devicons-javascript"></i>
-                                        <span>Javascript (ajax, jquery)</span>
+                                        <span>Javascript (Angular 1, jQuery)</span>
                                     </li>
                                     <li>
                                         <i class="devicons devicons-angular"></i>
@@ -137,6 +138,62 @@ $yearsExperience = getAge("2014-04-04");
                                         <span>Java</span>
                                     </li>
                                 </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="latest-projects">
+                        <div class="container-fluid">
+                            <h4 class="sub-title pb-4">Latest Projects</h4>
+                            <div id="projects-container" class="d-flex justify-content-around flex-wrap">
+                                <a href="dist/images/portfolio/cafemetro.png" data-sub-html="#caption1" class="portfolio-item">
+                                    <img src="dist/images/portfolio/cafemetro-web-400.jpg" class="img-fluid" />
+                                    <div id="caption1" class="portfolio-description">
+                                        <h4>CafeMetro - Wordpress</h4>
+                                        <p>Theme development for a restaurant. Responsive, from Photoshop to theme. Bootstrap 4.</p>
+                                        <p>cafemetrony.com</p>
+                                    </div>
+                                </a>
+                                <a href="dist/images/portfolio/themill.png" data-sub-html="#caption2" class="portfolio-item">
+                                    <img src="dist/images/portfolio/themill-web-400.jpg" class="img-fluid" />
+                                    <div id="caption2" class="portfolio-description">
+                                        <h4>TheMill - Wordpress</h4>
+                                        <p>Another theme for a restaurant. Responsive, from photoshop to theme. Bootstrap 4.</p>
+                                        <p>themilltogo.com</p>
+                                    </div>
+                                </a>
+                                <a href="dist/images/portfolio/cusica_new2.png" data-sub-html="#caption3" class="portfolio-item">
+                                    <img src="dist/images/portfolio/cusica_new2-web-400.jpg" class="img-fluid" />
+                                    <div id="caption3" class="portfolio-description">
+                                        <h4>Cusica - CakePHP 3/Angular 1</h4>
+                                        <p>Fully custom music E-Commerce solution with Cake 3 & Angular 1.</p>
+                                        <p>cusica.com</p>
+                                    </div>
+                                </a>
+                                <a href="dist/images/portfolio/primenikebot1.png" data-sub-html="#caption4" class="portfolio-item">
+                                    <img src="dist/images/portfolio/primenikebot1-web-400.jpg" class="img-fluid" />
+                                    <div id="caption4" class="portfolio-description">
+                                        <h4>PrimeNikeBot - CakePHP 2</h4>
+                                        <p>Website for selling the PrimeBot chrome extension. Paypal as payment gateway, Bootstrap 3.</p>
+                                        <p>Website offline. Adding link soon.</p>
+                                    </div>
+                                </a>
+                                <a href="dist/images/portfolio/imagen-dji-extension.jpg" data-sub-html="#caption6" class="portfolio-item">
+                                    <img src="dist/images/portfolio/dji-stock-chrome-extension2-web-400.jpg" class="img-fluid" />
+                                    <div id="caption6" class="portfolio-description">
+                                        <h4>DJI Stock Counter - Chrome Extension</h4>
+                                        <p>Javascript. Tool that counts green vs red stocks in DJI index, as well suggest next direction of index ticker.</p>
+                                        <p>https://goo.gl/2y9Fd4</p>
+                                    </div>
+                                </a>
+                                <a href="dist/images/portfolio/primebot.png" data-sub-html="#caption5" class="portfolio-item">
+                                    <img src="dist/images/portfolio/primenikebot2-web-400.jpg" class="img-fluid" />
+                                    <div id="caption5" class="portfolio-description">
+                                        <h4>PrimeBot - Chrome Extension</h4>
+                                        <p>Javascript. Twitter sniper and add to cart in seconds. Used to catch quick releases by nike.</p>
+                                        <p>Private Link.</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </section>
