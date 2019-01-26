@@ -59,14 +59,6 @@ section#about-me > .container-fluid > h3 {
     color: #696a75;
 }
 
-div#homepage-header-image {
-    height: 300px;
-    width: 100%;
-    background-image: url('../../dist/images/sea-u-free-diving.jpg');
-    background-position: left;
-    background-size: cover;
-}
-
 div#img-overlay {
     background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 46%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 46%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -226,9 +218,6 @@ div#main.col {
     padding:15px;
     color: #b9b9b9;
     width: 100%;
-    /*-webkit-transition: all 600ms cubic-bezier(0.165, 0.84, 0.44, 1);*/
-    /*transition:         all 600ms cubic-bezier(0.165, 0.84, 0.44, 1);*/
-
     -webkit-transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
     transition:         all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -327,12 +316,6 @@ a.portfolio-item {
 @media all and (max-width: 767px) {
     #sidebar-top {
         display: none !important;
-    }
-}
-
-@media all and (max-width: 644px) {
-    #sidebar-wrap {
-        /*display: none;*/
     }
 }
 
